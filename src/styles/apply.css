@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #011b69;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+.signUp_form{
+ width: 50%;
+margin: 10px auto;
+}
+.name{
+    margin: 20px 0px;
+    padding: 0px 100px;
+}
+.apply{
+    padding: 50px;
+}
+.button_apply{
+    padding: 10px 20px;
+}
+.fc{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+@media (max-width:991px){
+
+}
+@media (max-width:768px){
+ .apply{
+    padding: 10px 0px;
+    margin: 10px 0px;
+ }
+ .fc input{
+    width: 60%;
+    margin: 10px auto;
+    padding: 5px 100px;
+ }
+}
+@media (max-width:480px){
+.signUp_form{
+    width: 100%;
+    margin: 10px auto;
+}
+    
+}
